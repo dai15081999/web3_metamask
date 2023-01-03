@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="connect_button">Kết nối tới metamask</button>  
+    <div>
+        <h1 id="wallet_address"></h1>
+        <h2><span id="wallet_balance"></span></h2>
+    </div>
+    <hr>
+    
+    <div>
+        <h2 id="account_send">ID Gửi</h2>
+        <h2>Nhập ID nhận: <input value="" type="text" id="receiveId"></h2>
+        <h2>Số ETH gửi: <input value="0.1" disabled type="text" id="totalEth"></h2>
+    </div>
+    <button id="send_button">Gửi ETH</button>
+    <script src="./web3.min.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
